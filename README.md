@@ -17,4 +17,5 @@ I have corrected the issue with CAN chip 3V3 power supply.
 I added B2P-VH header for CAN1 output which is more robust header. It will hold 3.96mm pitch connectors with wires up to 1mm2.
 I have routed 12V power to relay contacts and provided solder points to connect either to GND or 12V. Also i power relais with 12V. This releases poor Arduino 5V regulator which had difficulties to cope with increased demand from 5V relay. 
 I added 3 mosfets to PWM outputs and connected them to 12V. So now i can directly connect PWM signal to drive chargers, DCDCs or car fans with that signal.
-I also eliminated position for 12V regulator as a diode can perform some voltage aleviation as long as we use ordinary 3A diode. Pleaase let me know if someone has other suggestion. 
+I also eliminated position for 12V regulator as a diode can perform some voltage aleviation as long as we use ordinary 3A diode. 
+
